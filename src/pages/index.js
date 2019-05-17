@@ -1,6 +1,7 @@
 import React from "react";
 import IndexContainer from "../containers/indexContainer";
 import NavigationBar from "../components/Navigationbar";
+import Footer from "../components/footer/Footer";
 //image imports
 import { graphql } from "gatsby";
 import Img from "gatsby-image";
@@ -10,6 +11,7 @@ export default props => (
     <NavigationBar />
     <Img fluid={props.data.imageOne.childImageSharp.fluid} title="ZAIRZA" />
     <IndexContainer />
+    <Footer />
   </div>
 );
 
