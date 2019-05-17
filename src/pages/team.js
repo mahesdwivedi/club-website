@@ -2,7 +2,7 @@ import React from "react";
 import data from "../config/members.yaml";
 import { object } from "prop-types";
 import NavigationBar from "../components/Navigationbar";
-import Footer from "../components/footer/Footer";
+import Footer from "../components/Footer";
 
 const Team = () => {
   return (

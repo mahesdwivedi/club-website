@@ -1,7 +1,7 @@
 import React from "react";
 import IndexContainer from "../containers/indexContainer";
 import NavigationBar from "../components/Navigationbar";
-import Footer from "../components/footer/Footer";
+import Footer from "../components/Footer";
 //image imports
 import { graphql } from "gatsby";
 import Img from "gatsby-image";
