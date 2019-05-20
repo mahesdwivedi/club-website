@@ -14,11 +14,16 @@ import {
 const styles = theme => ({
   root: {
     flexGrow: 1,
-    fontSize: "0.9rem"
+    fontSize: "0.9rem",
+    fontFamily: "Roboto"
   },
   content: {
+    textAlign: "center"
+  },
+  lower: {
+    width: "100%",
     textAlign: "center",
-    fontFamily: "Roboto"
+    backgroundColor: "#031828"
   },
   container: {
     backgroundColor: "#2c3e50",
@@ -26,7 +31,7 @@ const styles = theme => ({
     marginTop: "2rem",
     paddingLeft: "1rem",
     paddingTop: "1.5rem",
-    paddingBottom: "1rem"
+    width: "100%"
   },
   nomargin: {
     marginBottom: 0
@@ -90,6 +95,11 @@ const Footer = ({ classes }) => {
             </p>
             <p>Designed with &#10084; by Zairza Web Team</p>
           </div>
+        </Grid>
+        <Grid className={classes.lower} item lg={12} md={12} sm={12}>
+          <p className={classes.nomargin}>
+            &copy; 2019 Zairza All Rights Reserved{" "}
+          </p>
         </Grid>
       </Grid>
     </div>
