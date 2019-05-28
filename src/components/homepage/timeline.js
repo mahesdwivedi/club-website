@@ -9,43 +9,6 @@ import StarIcon from "@material-ui/icons/Star";
 import Timeline from "@material-ui/icons/Timeline";
 import Typography from "@material-ui/core/Typography";
 
-// const data = [
-//   {
-//     date: "2011 - present",
-//     head: "Founded",
-//     body: "----------------------------"
-//   },
-//   {
-//     date: "2010 - 2011",
-//     head: "Established",
-//     body: "-----------------------------"
-//   },
-//   {
-//     date: "2008 - 2010",
-//     head: "First ...",
-//     body: "-------------------------------"
-//   },
-//   {
-//     date: "2008 - 2010",
-//     head: "First ...",
-//     body: "-------------------------------"
-//   },
-//   {
-//     date: "2008 - 2010",
-//     head: "First ...",
-//     body: "-------------------------------"
-//   },
-//   {
-//     date: "2008 - 2010",
-//     head: "First ...",
-//     body: "-------------------------------"
-//   },
-//   {
-//     date: "2008 - 2010",
-//     head: "First ...",
-//     body: "-------------------------------"
-//   }
-// ];
 const styles = {
   width: `100%`
 };
